@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://localhost:8080/myservice">
+    <xsd:element name="requestFootMatch" type="xsd:string"/>
+    <xsd:element name="FootMatch">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="firstTeam" type="xsd:string"/>
+                <xsd:element name="secondTeam" type="xsd:string"/>
+                <xsd:element name="date" type="xsd:date"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
